@@ -1,0 +1,69 @@
+body {
+  /* background-image: url("https://images.pexels.com/photos/267151/pexels-photo-267151.jpeg?cs=srgb&dl=pexels-pixabay-267151.jpg&fm=jpg"); */
+  background-size: cover;
+  background-image: url("https://w0.peakpx.com/wallpaper/85/775/HD-wallpaper-sunset-sky-clouds-sunlight-bright.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 0;
+}
+
+.toDay {
+  background-color: black;
+  opacity: .7;
+  color: white;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .weatherSec {
+    justify-content: center !important;
+  }
+
+  .weatherCard {
+    width: 48%;
+  }
+
+  .toDay {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .inputSec {
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .searchSec {
+    /* justify-content: center !important; */
+    display: block !important;
+  }
+
+  .toDay {
+    width: 60%;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .inputSec {
+    width: 82%;
+  }
+
+  .weatherCard {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .weatherSec {
+    justify-content: center !important;
+  }
+
+  .weatherCard {
+    width: 80%;
+  }
+}
